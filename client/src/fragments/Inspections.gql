@@ -1,0 +1,8 @@
+fragment InspectionAttributes on Inspection {
+  _id
+  dateAdded
+  dateCompleted
+  status
+  type
+  by
+}

@@ -1,0 +1,2 @@
+If you want to use firestore, move this to src/ and point npm script to start it instead of mongo
+also move the ts* files to the server/ root in order to process the typescript

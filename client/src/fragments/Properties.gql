@@ -1,0 +1,7 @@
+fragment PropertyAttributes on Property {
+  _id
+  address
+  city
+  state
+  zip
+}

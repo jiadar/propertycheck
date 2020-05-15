@@ -1,0 +1,7 @@
+__pycache__/
+client-unejected/
+node_modules/
+server/lib/
+client/lib/
+serviceAccountKey.json
+.env

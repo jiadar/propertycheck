@@ -1,0 +1,5 @@
+fragment RoomAttributes on Room {
+  _id
+  desc
+  images
+}

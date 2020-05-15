@@ -1,0 +1,5 @@
+fragment ResponseAttributes on Response {
+  _id
+  question
+  response
+}

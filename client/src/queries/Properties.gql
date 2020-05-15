@@ -1,0 +1,27 @@
+#import "../fragments/Properties.gql"
+#import "../fragments/Inspections.gql"
+
+query properties { 
+  properties {
+    ...PropertyAttributes
+    inspections {
+      _id
+    } 
+  }
+}
+
+query property($id: String) {
+  property(id: $id) {
+    ...PropertyAttributes
+  }
+}
+
+query propertyInspections($id: String) {
+  property(id: $id) {
+    ...PropertyAttributes
+    inspections {
+      ...InspectionAttributes
+    }
+  }
+  
+}
